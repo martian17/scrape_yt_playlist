@@ -1,5 +1,8 @@
 # Scrape Youtube Playlist
-This script can scrape any playlist as well as my mix  
+This is a collection of scripts that semi-automates the process of scraping "my mix" and other playlists.  
+The scraping part is until step 6, and by then you will have a text file containing all the URLs.  
+Step 7 until 13 contains the instructions on how to import these URLs to YouTube through a service called soundiiz.com.
+# Steps
 1. First open your playlist, and open the developer console.  
 2. Then paste in the `scraper.js` content, and hit enter. The currently displayed section of my mix will be scraped and 
 the resulting JSON will appear on the console.  

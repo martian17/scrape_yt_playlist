@@ -1,4 +1,4 @@
-//usage: node connect.js > connected.json
+//usage: node concatenate.js > concatenated.json
 
 let fs = require("fs");
 let arrs = (fs.readFileSync("./scraped.json")+"").split("\n").map(s=>s.trim()).filter(s=>s!=="").map(str=>{
